@@ -4,7 +4,6 @@ def oxford_comma(arr)
     elsif arr.length == 2
         arr.join(" and ")
     elsif arr.length == 3
-        arr.split (, , ,)
-
+      [arr[0..-2].join(', '), arr.last].join(', and ')
     end
 end
